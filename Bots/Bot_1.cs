@@ -5,7 +5,7 @@ using System;
 public class Bot_1 : IChessBot
 {
     // Piece values: null, pawn, knight, bishop, rook, queen, king
-    int[] pieceValues = { 0, 100, 300, 300, 500, 900, 10000 };
+    int[] pieceValues = { 0, 1000, 300, 300, 500, 900, 10000 };
 
     int moveCount = 0;
     int randomExitNum = 0;
